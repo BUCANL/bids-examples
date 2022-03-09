@@ -1,0 +1,21 @@
+{
+	"Description": "Lossless state channel and component annotations.",
+	"Sources": "See BUCANL GitHub",
+	"Author": "Lossless",
+	"LabelDescription": {
+		"init_ind": "Continuous variable indicating the initial time point index within the session.",
+		"logl_init": "Log likelihood of initial AMICA decomposition.",
+		"logl_A": "Log likelihood of final AMICA decomposition (replication A).",
+		"logl_B": "Log likelihood of final AMICA decomposition (replication B).",
+		"logl_C": "Log likelihood of final AMICA decomposition (replication C).",	 
+	},
+	"SamplingFrequency": 512,
+	"StartTime": 0,
+	"Columns": [
+		"init_ind",
+		"logl_init",
+		"logl_A",
+		"logl_B",
+		"logl_C",
+	]
+}
